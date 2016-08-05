@@ -111,6 +111,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="DVTR.BL\InsertRepo.cs" />
+    <Compile Include="DVTR.BL\UpdateRepo.cs" />
     <Compile Include="DVTR.DAL\ApplicantContract.cs">
       <DependentUpon>DVTRecruit.tt</DependentUpon>
     </Compile>
@@ -193,7 +195,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="DVTR.BL\" />
     <Folder Include="DVTR.Core\" />
     <Folder Include="Models\" />
   </ItemGroup>
