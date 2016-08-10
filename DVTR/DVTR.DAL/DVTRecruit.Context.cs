@@ -32,7 +32,6 @@ namespace DVTR.DVTR.DAL
         public DbSet<Education> Educations { get; set; }
         public DbSet<EmploymentType> EmploymentTypes { get; set; }
         public DbSet<Gender> Genders { get; set; }
-        public DbSet<login> logins { get; set; }
         public DbSet<NextOfKin> NextOfKins { get; set; }
         public DbSet<Person> People { get; set; }
         public DbSet<ProjectSynopsi> ProjectSynopsis { get; set; }

@@ -102,14 +102,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="logins">
-      <EntityTypeMapping TypeName="DvtRecruitModel.login">
-        <MappingFragment StoreEntitySet="login">
-          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
-          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="NextOfKins">
       <EntityTypeMapping TypeName="DvtRecruitModel.NextOfKin">
         <MappingFragment StoreEntitySet="NextOfKin">

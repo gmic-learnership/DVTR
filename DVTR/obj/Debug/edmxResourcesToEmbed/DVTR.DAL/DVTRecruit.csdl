@@ -104,13 +104,6 @@
     <Property Name="Gender1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="People" Relationship="Self.FK_Person_Gender" FromRole="Gender" ToRole="Person" />
   </EntityType>
-  <EntityType Name="login">
-    <Key>
-      <PropertyRef Name="USERNAME" />
-    </Key>
-    <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-  </EntityType>
   <EntityType Name="NextOfKin">
     <Key>
       <PropertyRef Name="NextOfKinId" />
@@ -367,7 +360,6 @@
     <EntitySet Name="Educations" EntityType="Self.Education" />
     <EntitySet Name="EmploymentTypes" EntityType="Self.EmploymentType" />
     <EntitySet Name="Genders" EntityType="Self.Gender" />
-    <EntitySet Name="logins" EntityType="Self.login" />
     <EntitySet Name="NextOfKins" EntityType="Self.NextOfKin" />
     <EntitySet Name="People" EntityType="Self.Person" />
     <EntitySet Name="ProjectSynopsis" EntityType="Self.ProjectSynopsi" />

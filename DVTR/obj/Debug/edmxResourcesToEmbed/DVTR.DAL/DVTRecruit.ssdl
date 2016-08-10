@@ -94,13 +94,6 @@
     <Property Name="GenderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Gender" Type="varchar" MaxLength="10" Nullable="false" />
   </EntityType>
-  <EntityType Name="login">
-    <Key>
-      <PropertyRef Name="USERNAME" />
-    </Key>
-    <Property Name="USERNAME" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="PASSWORD" Type="varchar" MaxLength="50" />
-  </EntityType>
   <EntityType Name="NextOfKin">
     <Key>
       <PropertyRef Name="NextOfKinId" />
@@ -341,7 +334,6 @@
     <EntitySet Name="Education" EntityType="Self.Education" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="EmploymentType" EntityType="Self.EmploymentType" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="NextOfKin" EntityType="Self.NextOfKin" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ProjectSynopsis" EntityType="Self.ProjectSynopsis" Schema="dbo" store:Type="Tables" />

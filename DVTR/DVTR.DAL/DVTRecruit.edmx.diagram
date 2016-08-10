@@ -12,7 +12,6 @@
         <EntityTypeShape EntityType="DvtRecruitModel.Education" Width="1.5" PointX="5.25" PointY="23.25" IsExpanded="true" />
         <EntityTypeShape EntityType="DvtRecruitModel.EmploymentType" Width="1.5" PointX="6" PointY="8.875" IsExpanded="true" />
         <EntityTypeShape EntityType="DvtRecruitModel.Gender" Width="1.5" PointX="0.75" PointY="16.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DvtRecruitModel.login" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DvtRecruitModel.NextOfKin" Width="1.5" PointX="5.25" PointY="26.125" IsExpanded="true" />
         <EntityTypeShape EntityType="DvtRecruitModel.Person" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DvtRecruitModel.ProjectSynopsi" Width="1.5" PointX="5.25" PointY="29" IsExpanded="true" />
